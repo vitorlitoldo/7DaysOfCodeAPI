@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Filmes Populares</h1>
+            <div class="search-box">
+                <input type="text" placeholder="Digite algum filme para pesquisar...">
+                <button type="submit">
+                    <img src="/images/icon.svg" alt="Buscar">
+                </button>
+            </div>
+            <p class="filmes-favoritos">
+                <input type="checkbox" name="filmes-favoritos" id="filmes-favoritos">
+                Mostrar apenas meus filmes favoritos
+            </p>
+        </div>
+        <div class="filmes">
+            <ul>
+                <li class="imagem-filme">
+                    <img src="https://img.elo7.com.br/product/original/3FBA809/big-poster-filme-batman-2022-90x60-cm-lo002-poster-batman.jpg" alt="img-filme">
+                </li>
+                <div class="name-points">
+                    <li class="nome-filme">Batman</li>
+                    <li class="pontos-favoritar">
+                        <p class="pontos">
+                            <img src="/images/star.svg" alt="point">9.6
+                        </p>
+                        <p class="favoritar">
+                            <img src="/images/heart.svg" alt="favorite">Favoritar
+                        </p>
+                    </li>
+                </div>
+                <li class="descricao">
+                    <p>item</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
